@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li class="active"><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="page-container"></div>
+    <section class="home-page" id="home">
+      <div class="home-page-box">
+        <h1 class="greeting">Hi, my name is</h1>
+        <h1 class="name" style="color:#FF105e;">Ronnie Tamburro.</h1>
+        <h1 class="name">A Self-Taught Web Developer.</h1>
+        <div class="home-paragraph">
+          <p class="paragraph">I'm currently working through
+          <a class="TOP" href="https://www.theodinproject.com/home">The Odin Project</a>
+          as well as a few personal projects when time allows. A recent accomplishment of mine is
+          condensing my first-ever Python script from 600+ lines of code down to 24 lines! 
+          Here are a few technologies I've worked with:</p>
+        </div>
+        <div class="technologies">
+          <ul class="list">
+            <li>Javascript</li>
+            <li>HTML & (S)CSS</li>
+            <li>Ruby on Rails</li>
+            <li>Python</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="projects" id="projects">
+      <div class="cards">
+        <div class="card">
+          <a href="https://wayoh22.github.io/calculator/">
+            <div class="container">
+              <img class="project-img" src="images/calc.png" alt="Calculator">
+            </div>
+          </a>
+          <div class="details">
+            <h3 class="project-title">Calculator</h3>
+            <p class="project-description">Fully functional calculator able to perform:<br>Addition, Subtraction, Multiplication, and Division</p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="">
+            <div class="container">
+              <img src="images/Tweeeter.png" alt="Tweeter">
+            </div>
+          </a>
+          <div class="details">
+            <h3 class="project-title">Tweeeter</h3>
+            <p class="project-description">The Avengers needed somewhere to post about.<br>Go see what they have to say!</p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="">
+            <div class="container">
+              <img src="images/private_events.png" alt="Private Events">
+            </div>
+          </a>
+          <div class="details">
+            <h3 class="project-title">Private Events</h3>
+            <p class="project-description">Want to host an event? Maybe a concert?<br>Sign up and add your events today!</p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="https://wayoh22.github.io/rock-paper-scissors/">
+            <div class="container">
+              <img src="images/rps.png" alt="">
+            </div>
+          </a>
+          <div class="details">
+            <h3 class="project-title">Rock-Paper-Scissors</h3>
+            <p class="project-description">Play against the computer in a best of 5 game.<br>Do you have what it takes?</p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="https://wayoh22.github.io/etch-a-sketch/">
+            <div class="container">
+              <img class="project-img" src="images/eas.png" alt="">
+            </div>
+          </a>
+          <div class="details">
+            <h3 class="project-title">Etch-a-Sketch</h3>
+            <p class="project-description">Choose black or random colors and etch-out a masterpiece</p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="https://wayoh22.github.io/light_saber/">
+            <div class="container">
+              <img src="images/light_saber.png" alt="Light Saber">
+            </div>
+          </a>
+          <div class="details">
+            <h3 class="project-title">Light Saber</h3>
+            <p class="project-description">Light Saber built purely with CSS.<br>Choose your color and may the force be with you.</p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="">
+            <div class="container">
+              <img src="images/assigning_system.png" alt="Light Saber">
+            </div>
+          </a>
+          <div class="details">
+            <h3 class="project-title">Assigning System</h3>
+            <p class="project-description">Coming soon...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="about">
+      <div class="wrapper">
+        <div class="testimonial">
+          <article>
+            <!-- <h1>About Me</h1> -->
+            <img class="portrait" src="images/potrait.jpeg" alt="portrait">
+            <h5>Ronnie</h5>
+            <div class="bio">
+              <p class="bio-content">I didn’t know it at the time, but my programming "career" began when I started using 
+                Excel to write my yearly plans for athletes when I was a strength & conditioning coach. Sure, it wasn’t exactly “code” but the process of using functions, 
+                macros, and pulling information from sheets absorbed me. The constant solving of problems to make things efficient; to make my job and the jobs of others 
+                easier.I think that was what inevitably led me to programming.
+              </p>
+              <p class="bio-content">Once COVID-19 hit, I knew it was the time to take a leap of faith and make a career switch. Since then, I have been teaching myself 
+                web development through the means of a few beginner books, 
+                personal projects that force me to ask questions, and <a class="TOP" href="https://www.theodinproject.com/home">The Odin Project</a>. Throughout doing this 
+                I’ve gained a wide-ranging experience in developing user-friendly and cross-functional software and applications.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <a class="contact-title" href="mailto:ronnie.tamburro@protonmail.com"> Get In Touch</a>
+      <p class="contact-content">Whether you have questions or just want to day hi, my inbox is always open. I will get back to you ASAP!</p>
+    </section>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
